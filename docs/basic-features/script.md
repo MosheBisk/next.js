@@ -209,6 +209,8 @@ export default function Page() {
 }
 ```
 
+> **Note**: If the `<Script/>` dosen't load, with an error regarding `Document.write()`, add the `defer={false}` attribute. 
+
 ## Next Steps
 
 <div class="card">
